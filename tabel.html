@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="tabel.css">
+    <title>Tabel</title>
+</head>
+<!-- Nav Bar -->
+<nav>
+    <ul>
+        <li><a href="profil.html">Profil</a></li>
+        <li>
+            <a href="index.html">Input Data</a>
+        </li>
+        <li><a href="tabel.html">Tabel</a></li>
+        <li><a href="login.html">Keluar</a></li>
+    </ul>
+</nav>
+<!-- Selesai -->
+
+<body>
+    <div class="container">
+        <div class="header-page">
+            <h3>Tabel Mahasiswa</h3>
+        </div>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>NPM</th>
+                    <th>Nama Mahasiswa</th>
+                    <th>Program Studi</th>
+                    <th>Fakultas</th>
+                    <th>E-mail</th>
+                    <th>Alamat</th>
+                    <th>No. Telpon</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>17411042</td>
+                <td>Yogi Pria Bintara</td>
+                <td>Sistem Informasi</td>
+                <td>Ilmu Komputer</td>
+                <td>yogi.17411042@student.ubl.ac.id</td>
+                <td>Lampung Timur</td>
+                <td>089534748490</td>
+            </tr>
+            <tr>
+                <td>17411052</td>
+                <td>Indrawan Franseda</td>
+                <td>Sistem Informasi</td>
+                <td>Ilmu Komputer</td>
+                <td>indra.17411052@student.ubl.ac.id</td>
+                <td>Teluk</td>
+                <td>089631048748</td>
+            </tr>
+            <tr>
+                <td>17411061</td>
+                <td>Boston Felix</td>
+                <td>Sistem Informasi</td>
+                <td>Ilmu Komputer</td>
+                <td>Bonton.17411061@student.ubl.ac.id</td>
+                <td>kedaton</td>
+                <td>08952658959</td>
+            </tr>
+            <tr>
+                <td>17411078</td>
+                <td>Haga Jeriko</td>
+                <td>Sistem Informasi</td>
+                <td>Ilmu Komputer</td>
+                <td>haga.17411078@student.ubl.ac.id</td>
+                <td>Untung</td>
+                <td>089625675859</td>
+            </tr>
+            <tr>
+                <td>17411038</td>
+                <td>Dian Hendra</td>
+                <td>Sistem Informasi</td>
+                <td>Ilmu Komputer</td>
+                <td>hendra.17411038@student.ubl.ac.id</td>
+                <td>Legundi</td>
+                <td>08972057585</td>
+            </tr>
+            <tr>
+                <td>17411078</td>
+                <td>Aditya Pratama</td>
+                <td>Sistem Informasi</td>
+                <td>Ilmu Komputer</td>
+                <td>aditya.17411078@student.ubl.ac.id</td>
+                <td>Abdul Muluk</td>
+                <td>089720575758</td>
+            </tr>
+            <tr>
+                <td>17411079</td>
+                <td>Tobi Unzila</td>
+                <td>Sistem Informasi</td>
+                <td>Ilmu Komputer</td>
+                <td>tobi.17411079@student.ubl.ac.id</td>
+                <td>kemiling</td>
+                <td>089727575589</td>
+            </tr>
+            <tr>
+                <td>17411080</td>
+                <td>Lutfan Kurniawan</td>
+                <td>Sistem Informasi</td>
+                <td>Ilmu Komputer</td>
+                <td>lutfan.17411080@student.ubl.ac.id</td>
+                <td>kemiling</td>
+                <td>08972055679</td>
+            </tr>
+        </table>
+        <div class="tombol-folder">
+            <a href="#">
+                <button class="button-add">Add</button>
+            </a>
+            <a href="#">
+                <button class="button-utama">Edit</button>
+            </a>
+            <a href="#">
+                <button onclick="return hapus()" class="button-danger">Delete</button>
+            </a>
+        </div>
+    </div>
+</body>
+<script>
+    // console.log(''); 
+    // confirm('');?
+    // prompt('Masukan Nama Anda')
+    // Alert
+    function hapus() {
+        let konfirmasi = confirm('Apakah anda yakin ?')
+        if (konfirmasi) {
+            alert('Data Telah Dihapus.')
+        } else {
+            alert('Proses Telah Dibatalkan.')
+        }
+    }
+</script>
+
+</html>

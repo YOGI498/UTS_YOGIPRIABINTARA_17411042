@@ -1,0 +1,114 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    font-family: Myriad Pro;
+}
+
+body {
+    background-color: #dd7b20;
+    
+}
+
+.container {
+    margin-top: 5%;
+    text-align: center;
+    background-color: rgb(0, 0, 0, 0.3);
+    width: 100%;
+    border: none;
+    padding: 3% 0 5% 0;
+}
+
+p{
+    color: white;
+}
+
+.link-register {
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 15px;
+    color: rgb(255, 255, 255);
+}
+
+.link-register:hover {
+    color: rgb(0, 0, 0);
+}
+
+.img {
+    width: 6%;
+    margin-bottom: 1%;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+
+h3 {
+    font-family: Myriad Pro;
+    /* font-style: italic; */
+    color: white;
+}
+
+.form-login {
+    margin: 30px 0 0 0;
+}
+
+input[type=text] {
+    width: 30%;
+    height: 40px;
+    text-align: center;
+    font-size: 90%;
+    border-radius: 5px 5px 0 0;
+    border: none;
+}
+
+input[type=password] {
+    width: 30%;
+    margin-top: 3px;
+    height: 40px;
+    text-align: center;
+    font-size: 90%;
+    border-radius: 0 0 5px 5px;
+    border: none;
+}
+
+input[type=checkbox] {
+    margin-top: 15px;
+    margin-right: 10px;
+    text-align: center;
+    border-radius: 0 0 5px 5px;
+    border: none;
+}
+
+input[type=submit]:hover {
+    background-color: #fff;
+}
+
+input[type=button] {
+    cursor: pointer;
+    margin-top: 15px;
+    margin-right: 10px;
+    width: 25%;
+    height: 40px;
+    text-align: center;
+    border: none;
+    border-radius: 30px;
+    background-color: #4e5566;
+    color: white;
+    font-size: 90%;
+}
+
+input[type=button]:hover {
+    background-color: #4e5566;
+    
+}
+
+p {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+}
+
+::placeholder {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
